@@ -45,11 +45,11 @@ public class Transport {
         this.model = model;
     }
 
-   private double power (int horsePower){
+   private double power (){
         return horsePower*0.74;
    }
 
    public void description (){
-       System.out.print("Мощность в лошадиных силах: "+horsePower+", максимальная скорость: "+maxSpeed+", масса: "+weight+", модель: "+model+", мощность в кВ:"+power(horsePower)+", ");
+       System.out.print("Мощность в лошадиных силах: "+horsePower+", максимальная скорость: "+maxSpeed+", масса: "+weight+", модель: "+model+", мощность в кВ:"+power()+", ");
    }
 }

@@ -23,6 +23,7 @@ public class Main {
         military.shot();
         military.shot();
         military.bailout();
+        military.bailout();
 
 
     }

@@ -27,6 +27,7 @@ public class Military extends Air {
     public void bailout(){
         if (bailoutSystem==true){
             System.out.println("Катапультирование прошло успешно");
+            bailoutSystem=false;
         } else {
             System.out.println("У вас нет такой системы");
         }
